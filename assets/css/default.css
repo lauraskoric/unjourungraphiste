@@ -1,0 +1,290 @@
+@font-face
+{
+    font-family: gobold;
+    src: url("./fonts/GoboldThin.ttf");
+}
+
+@font-face
+{
+    font-family: xoxo;
+    src: url("./fonts/xoxo.ttf");
+}
+
+*
+{
+    margin: 0;
+    font-family: gobold;
+}
+
+a
+{
+    text-decoration: none;
+}
+
+ul
+{
+    list-style-type: none;
+}
+
+h3 
+{
+    font-family: xoxo;
+    font-size: 50px;
+    font-weight: normal;
+    text-align: center;
+    margin: 0 0 30px 0;
+}
+
+p 
+{
+    text-align: justify; 
+}
+
+.clear
+{
+    clear: both;
+}
+
+.primary
+{
+    background-color: white;
+    font-size: 14px;
+    color: #9BA29A;
+}
+
+.secondary
+{
+    background-color: #ADC2AA;
+    color: white;
+}
+
+.section
+{
+    padding: 30px 0;
+}
+
+.content-width
+{
+    width:1000px; 
+    margin: auto;
+    font-size: 15px;
+    line-height: 27px;
+}
+
+/* stars */
+
+.star
+{
+    width: 15px;
+    height: 16px;
+    margin-top: 6px;
+    background-repeat: no-repeat;
+}
+
+.green-star
+{
+    background-image: url("./images/Stars_green.png");
+}
+
+.white-star
+{
+    background-image: url("./images/Stars_white.png");
+}
+
+.know-more
+{
+    text-align: center; 
+    margin: auto; 
+    width: 150px;
+    padding-top: 20px;
+}
+
+.know-more p 
+{
+    float: left;
+    margin: 0 10px;
+}
+
+.know-more span
+{
+    float: left;
+}
+
+/* navigation */
+nav a
+{
+    float: left;
+    color: #9BA29A;
+}
+
+nav div
+{
+    float: left;
+}
+
+nav ul li
+{
+    float: left;
+    text-decoration: none;
+    margin: 0 20px;
+}
+
+.logo
+{
+    background-image: url("./images/logo.png");
+    width: 372px;
+    height: 132px;
+    display: block;
+}
+
+/* who am I */
+
+.qualities 
+{
+    background-image: url("./images/Adjectifs.png");
+    background-repeat: no-repeat;
+    width: 217px;
+    height: 156px;
+    margin: auto;
+}
+
+/* My services */
+
+
+.services-block
+{
+    float: left;
+    width: 50%;
+}
+
+.services-block h5 
+{
+    text-align: center;
+    font-weight: normal;
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.services-block p
+{
+    color: #ADC2AA;
+    text-align: center;
+    width: 50%;
+    margin: auto;
+}
+
+.services-block .communication
+{
+    width: 98px;
+    height: 98px;
+    margin: auto;
+    background-image: url("./images/Communication.png");
+}
+
+.services-block .creation
+{
+    width: 98px;
+    height: 98px;
+    margin: auto;
+    background-image: url("./images/Creation.png");
+}
+
+.visual-identity
+{
+    width: 119px;
+    height: 65px;
+    margin: auto;
+    background-image: url("./images/Identite_visuelle.png");
+}
+
+.edition-graphism
+{
+    width: 96px;
+    height: 82px;
+    margin: auto;
+    background-image: url("./images/Imprimante.png");
+}
+
+.web-design
+{
+    width: 120px;
+    height: 89px;
+    margin: auto;
+    background-image: url("./images/Pc.png");
+}
+
+.mywork
+{
+    background-image: url("./images/Mesrealisations.png");
+    width: 288px;
+    height: 60px;
+    margin: auto;
+}
+
+.contact label, input
+{
+    display: block;
+    width: 100%;
+    margin: 10px 0;
+}
+
+.contact input
+{
+    height: 40px;
+    border: white;
+}
+
+.portfolio div
+{
+    width: 33%;
+    float: left;
+}
+
+.portfolio span
+{
+    width: 300px;
+    height: 300px;
+    display: block;
+}
+
+.footer-block
+{
+    width: 50%;
+    float: left;
+    padding-bottom: 100px;
+}
+
+.footer-block a
+{
+    width: 64px;
+    height: 64px;
+    margin: auto;
+    display: block;
+}
+
+.footer-block li
+{
+    float: left;
+}
+.footer-block .contact
+{
+    background-image: url("./images/Mail.png");
+}
+
+.footer-block .instagram
+{
+    background-image: url("./images/Instagram.png")
+}
+
+.footer-block .pinterest
+{
+    background-image: url("./images/Pinterest.png")
+}
+.footer-block .hopwork
+{
+    background-image: url("./images/Hopwork.png")
+}
+.footer-block p
+{
+    text-align: center
+}
