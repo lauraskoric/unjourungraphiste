@@ -16,10 +16,7 @@
     font-family: gobold;
 }
 
-a
-{
-    text-decoration: none;
-}
+a, a:visited, a:hover, a:focus { text-decoration: none; }
 
 ul
 {
@@ -61,7 +58,7 @@ p
     color: #9BA29A;
 }
 
-.primary p
+.primary p, .primary h3, .primary a:visited, .primary a:hover, .secondary a:focus
 {
     color: #ADC2AA;
 }
@@ -72,6 +69,11 @@ p
     color: white;
 }
 
+.secondary a:visited, .secondary a:hover, .secondary a:focus 
+{
+    color: white;
+}
+
 .section
 {
     padding: 30px 0;
@@ -79,7 +81,7 @@ p
 
 .content-width
 {
-    width:1000px; 
+    width: 850px; 
     margin: auto;
     font-size: 15px;
     line-height: 27px;
@@ -92,19 +94,28 @@ p
     text-align: center;
 }
 
+.dotted
+{
+    border-top:1px dotted white; 
+    width: 300px; 
+    height: 1px; 
+    margin: 10px auto;
+}
+
 /* stars */
 
 .star
 {
     width: 15px;
     height: 16px;
-    margin-top: 6px;
+    margin-top: 3px;
     background-repeat: no-repeat;
 }
 
 .green-star
 {
-    background-image: url("../images/Stars_green.png");
+    margin-top: 6px;
+    background-image: url("../images/Stars_green_light.png");
 }
 
 .white-star
@@ -112,17 +123,23 @@ p
     background-image: url("../images/Stars_white.png");
 }
 
-.know-more
+.know-more, .download-my-cv
 {
     margin: auto; 
     width: 150px;
     padding-top: 20px;
 }
 
-.know-more p 
+.download-my-cv
+{
+    width: 178px;
+}
+
+.know-more p, .know-more a
 {
     float: left;
     margin: 0 10px;
+    text-decoration: none;    
 }
 
 .know-more span
@@ -244,17 +261,18 @@ nav ul li
     border: white;
 }
 
-.portfolio div
-{
-    width: 33%;
-    float: left;
-}
-
 .portfolio span
 {
-    width: 300px;
-    height: 300px;
+    width: 250px;
+    height: 250px;
     display: block;
+    float:left;
+    margin: 16px;
+}
+
+.footer-block p 
+{
+    color: #9BA29A;
 }
 
 .footer-block
@@ -326,4 +344,15 @@ nav ul li
     width: 82px;
     margin: auto;
     background-image: url("../images/Experience.png");
+}
+
+input[type=submit]
+{
+    border: none;
+    background: none;
+    color: white;
+    text-align: right;
+    float: right;
+    width: 200px;
+    font-size: 24px;
 }

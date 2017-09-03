@@ -1,0 +1,33 @@
+--- 
+layout: default
+title: Contact 
+--- 
+
+<div class="secondary section">
+    <h3>Un projet ? Un devis ? Une question ?</h3>
+    <div class="content-width" style="width: 800px">
+        <form name="gform" id="gform" enctype="text/plain" action="https://docs.google.com/forms/d/e/1FAIpQLSdPPA9HTa6-Xq5dbonsusMXDLDc2Wx55QvSB3SD4OWYV5Wx3Q/formResponse?" target="hidden_iframe" onsubmit="submitted=true;">
+            <span>Nom :</span>
+            <input type="text" name="entry.1606611981" id="entry.1606611981" required>
+            <span>Email :</span>
+            <input type="email" name="entry.539262965" id="entry.539262965" required>
+            <span>Objet :</span>
+            <input type="text" name="entry.767056470" id="entry.767056470" required>
+            <span>Message :</span>
+            <input type="text" name="entry.1982723440" id="entry.1982723440" required>
+            <br>
+            <input type="submit" value="Envoyer">
+            <div class="clear"></div>
+        </form>
+            
+        <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) {}"></iframe>
+    </div>
+    <script type="text/javascript">var submitted=false;</script>
+    <script type="text/javascript">
+    $('#gform').on('submit', function(e) {
+      $('#gform *').fadeOut(2000);
+      $('#gform').prepend('Merci pour votre message !');
+      });
+    </script>
+</div>
+
