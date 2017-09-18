@@ -58,7 +58,7 @@ p
     color: #9BA29A;
 }
 
-.primary p, .primary h3, .primary a:visited, .primary a:hover, .secondary a:focus
+.primary p, .primary h3, .primary a:visited, .primary a:hover, .secondary a:focus, a
 {
     color: #ADC2AA;
 }
@@ -69,7 +69,7 @@ p
     color: white;
 }
 
-.secondary a:visited, .secondary a:hover, .secondary a:focus 
+.secondary a:visited, .secondary a:hover, .secondary a:focus, .secondary a
 {
     color: white;
 }
