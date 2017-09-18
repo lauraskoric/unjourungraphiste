@@ -203,7 +203,7 @@ nav ul li
 .services-block .communication
 {
     width: 98px;
-    height: 98px;
+    height: 70px;
     margin: auto;
     background-image: url("../images/Communication.png");
 }
@@ -211,7 +211,7 @@ nav ul li
 .services-block .creation
 {
     width: 98px;
-    height: 98px;
+    height: 70px;
     margin: auto;
     background-image: url("../images/Creation.png");
 }
@@ -316,7 +316,7 @@ nav ul li
 /* Presentation*/
 .certificate
 {
-    height: 82px;
+    height: 52px;
     width: 82px;
     margin: auto;
     background-image: url("../images/Diplomes.png");
@@ -324,7 +324,7 @@ nav ul li
 
 .skills
 {
-    height: 82px;
+    height: 52px;
     width: 82px;
     margin: auto;
     background-image: url("../images/Competences.png");
@@ -332,7 +332,7 @@ nav ul li
 
 .interests
 {
-    height: 82px;
+    height: 52px;
     width: 82px;
     margin: auto;
     background-image: url("../images/Centre-interets.png");
@@ -340,7 +340,7 @@ nav ul li
 
 .experiences
 {
-    height: 82px;
+    height: 52px;
     width: 82px;
     margin: auto;
     background-image: url("../images/Experience.png");
@@ -354,5 +354,29 @@ input[type=submit]
     text-align: right;
     float: right;
     width: 200px;
-    font-size: 24px;
+    font-size: 20px;
+}
+
+.institutional-communication
+{
+    background-image: url("../images/communication-institutionnelle.png");
+    margin: auto;
+    width: 82px;
+    height: 83px;
+}
+
+.step-creation
+{
+    background-image: url("../images/etape-creation.png");
+    margin: auto;
+    width: 82px;
+    height: 83px;
+}
+
+.steps
+{
+    background-image: url("../images/etapes.png");
+    margin:auto;
+    width: 635px;
+    height: 134px;
 }
